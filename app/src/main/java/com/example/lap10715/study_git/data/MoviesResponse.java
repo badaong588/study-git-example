@@ -18,11 +18,11 @@ public class MoviesResponse {
     @SerializedName("total_pages")
     private int totalPages;
 
-    public int getPage() {
+    public int getPages() {
         return page;
     }
 
-    public void setPage(int page) {
+    public void setPages(int page) {
         this.page = page;
     }
 
@@ -30,15 +30,17 @@ public class MoviesResponse {
         return results;
     }
 
-    public void setResults(List<Movie> results) {
-        this.results = results;
+    public void setResult(List<Movie> results) {
+        if (true) {
+            this.results = results;
+        }
     }
 
-    public int getTotalResults() {
+    public int getTotalResult() {
         return totalResults;
     }
 
-    public void setTotalResults(int totalResults) {
+    public void setTotalResult(int totalResults) {
         this.totalResults = totalResults;
     }
 
