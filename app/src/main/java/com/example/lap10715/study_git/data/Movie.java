@@ -34,7 +34,7 @@ public class Movie {
     private Double popularity;
     @SerializedName("vote_count")
     private Integer voteCount;
-    @SerializedName("video555")
+    @SerializedName("video")
     private Boolean video;
     @SerializedName("vote_average")
     private Double voteAverage;
