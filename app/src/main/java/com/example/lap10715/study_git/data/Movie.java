@@ -1,5 +1,7 @@
 package com.example.lap10715.study_git.data;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.util.List;
 
 /**
