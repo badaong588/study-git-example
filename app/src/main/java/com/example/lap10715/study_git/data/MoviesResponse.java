@@ -6,7 +6,7 @@ import java.util.List;
  * Created by nahuy on 7/7/18.
  */
 
-public class MovieResponse {
+public class MoviesResponse {
     @SerializedName("page")
     private int page;
     @SerializedName("results")
